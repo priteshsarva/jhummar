@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fdf3e9;
-  height: 200vh;
 }
 
 code {
@@ -17,4 +16,5 @@ code {
 :root,
 [data-bs-theme=light] {
   --bs-tertiary-bg-rgb: 248, 249, 250;
-} 
+  ---bs-primary-rgb: 255, 110, 253;
+}
