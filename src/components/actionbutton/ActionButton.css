@@ -1,0 +1,59 @@
+.actionButton {
+    right: 2%;
+    position: fixed;
+    top: 75%;
+}
+
+.actionButton>a {
+    text-decoration: underline rgba(25, 135, 84, 0);
+    
+}
+
+
+.actionButton>a>button {
+    border-radius: 500px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.anim-circle {
+    /* color: transparent;
+    position: absolute;
+    top: -28%;
+    left: 50%;
+    width: 70px;
+    height: 70px; */
+    border-radius: 100%;
+    /* border: 1px solid #fdf3e9; */
+    /* border-color: #fdf3e9; */
+    animation: breathe 2s linear infinite;
+}
+
+@keyframes breathe {
+    0% {
+        box-shadow: 0 0 0 4px rgba(25, 135, 84, 0.5),
+            /* 0 0 0 10px rgba(188, 237, 243, 0.3), */
+            0 0 0 10px rgba(25, 135, 84, 0.2),
+            0 0 0 15px rgba(25, 135, 84, 0.2)
+    }
+
+    50% {
+        box-shadow: 0 0 0 6px rgba(25, 135, 84, 0.5),
+            /* 0 0 0 10px rgba(188, 237, 243, 0.3),  */
+            0 0 0 13px rgba(25, 135, 84, 0.2),
+            0 0 0 18px rgba(25, 135, 84, 0.2)
+    }
+
+    100% {
+        box-shadow: 0 0 0 4px rgba(25, 135, 84, 0.5),
+            /* 0 0 0 10px rgba(188, 237, 243, 0.3),  */
+            0 0 0 10px rgba(25, 135, 84, 0.2),
+            0 0 0 15px rgba(25, 135, 84, 0.2)
+    }
+}
