@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
 
-            <div class="rounded-5 p-5" style={{ backgroundColor: "#fef9f4",  margin:"3%", marginBottom: "-50px",position: "relative", zIndex: "2" }}>
+            <div class="rounded-5 p-5" style={{ backgroundColor: "#fef9f4",  margin:"3%", marginBottom: "-50px",position: "relative", zIndex: "2",  boxShadow:" rgba(0,0,0,0.1) 0 10px 20px 0px"}}>
                 <h1>Contact Form</h1>
                 <form id="contact_form" name="contact_form" method="post">
                     <div class="mb-5 row">
