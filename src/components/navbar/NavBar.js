@@ -5,7 +5,9 @@ const NavBar = () => {
         <>
             <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary"style={{backgroundColor:"rgba(255,255,255,0.1)"}}>
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Jhummar</a>
+                    <a class="navbar-brand" href="#">
+                        Jhummar
+                        </a>
                     <button class="navbar-toggler" type="button"
                         //   data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                         data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"
