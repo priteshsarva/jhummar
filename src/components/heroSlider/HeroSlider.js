@@ -9,17 +9,17 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+import i1 from '../../assets/images/chandelier-1.jpg'
+import i2 from '../../assets/images/chandelier-2.jpg'
+import i3 from '../../assets/images/chandelier-3.jpg'
+
+
 import { Pagination, Navigation } from 'swiper/modules';
 
 const HeroSlider = () => {
-    const images = ["https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
-        "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
-        "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
-        "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"]
+    const images = [i1,i2,i3]
     return (
         <>
-
-
             <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
