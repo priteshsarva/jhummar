@@ -2,8 +2,9 @@
 .backgroundimages{
     width: 100%;
     height: 100%;
-    /* margin-top: -8%; */
+    margin-top: -8%;
     background-color: #fdf3e9;
+    padding-bottom: 50px;
 }
 
 .flowerDesign{
@@ -16,5 +17,17 @@
 }
 .aboutustitle{
     text-align: center;
-    padding-top: 10%;
+    padding-top: 150px;
+}
+.aboutusDescription{
+    text-align: center;
+    color: rgb(100, 100, 100);
+    width: clamp(300px, 50%, 700px);
+}
+.aboutusShopNow{
+    all: unset;
+    background-color: white;
+    padding: 12px 32px;
+    text-transform: capitalize;
+    border: 2px solid #ca9748;
 }

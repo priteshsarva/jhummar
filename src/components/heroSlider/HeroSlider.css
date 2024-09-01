@@ -1,29 +1,53 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
 
 .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-  }
-  
-  .swiper {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.swiperwrap{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 243, 233, 0.5);
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutusShopNow{
+  all: unset;
+  background-color: white;
+  padding: 12px 32px;
+  text-transform: capitalize;
+  border: 2px solid #ca9748;
+}
+.swiperwrap > .text{
+  width: 50%;
+  text-align: center;
+}

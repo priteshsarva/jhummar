@@ -15,8 +15,6 @@ function App() {
       <NavBar />
       <HeroSlider />
       <AboutUs />
-
-
       <ActionButton />
       <div className="height"></div>
       <Footer />

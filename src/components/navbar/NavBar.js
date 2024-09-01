@@ -1,13 +1,35 @@
 import React from 'react'
 import './NavBar.css'
 const NavBar = () => {
+
+    const scrolltoAboutUs = () => {
+
+        // Get the element you want to scroll to
+        const element = document.getElementById('aboutUs');
+
+        // Get the element's offset top
+        const offsetTop = element.offsetTop;
+        console.log(offsetTop);
+
+        // Get the translateY value
+        const translateY = element.style.transform.match(/translateY\(([^)]+)\)/)[1];
+        console.log(translateY);
+        // Calculate the scroll position
+        const scrollPosition = offsetTop - (parseInt(translateY) / 2.2);
+
+        // Scroll to the calculated position
+        window.scrollTo(0, scrollPosition);
+
+    }
+
+
     return (
         <>
-            <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary"style={{backgroundColor:"rgba(255,255,255,0.1)"}}>
+            <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" style={{ backgroundColor: "rgba(255,255,255,0.1)" }}>
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         Jhummar
-                        </a>
+                    </a>
                     <button class="navbar-toggler" type="button"
                         //   data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                         data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"
@@ -21,7 +43,10 @@ const NavBar = () => {
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link active" aria-current="page" href="#" onClick={scrolltoAboutUs}>About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Link</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
