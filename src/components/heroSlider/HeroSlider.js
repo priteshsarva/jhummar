@@ -53,8 +53,11 @@ const HeroSlider = () => {
                 })}
 
 
-                <Parallax opacity={[.5, 1]} className="swiperwrap">
-                    
+                <Parallax opacity={[.3, 1]} className="bgColor" startScroll={0} endScroll={500}>
+                </Parallax>
+                <Parallax className="swiperwrap"  
+                opacity={[1, 0]} 
+                startScroll={0} endScroll={500}>
                     <div className="title">
                         <h1>Chandelier</h1>
                     </div>
@@ -73,9 +76,9 @@ const HeroSlider = () => {
                         </p>
                     </div>
                     <button type="button" className='aboutusShopNow mt-3'>Shop Now</button>
+
+
                 </Parallax>
-
-
             </Swiper>
 
 
