@@ -31,3 +31,21 @@
     text-transform: capitalize;
     border: 2px solid #ca9748;
 }
+.chandelier4{
+    mix-blend-mode: multiply;
+    height: 130%;
+    object-fit: contain;
+}
+
+
+
+.aboutUs-content p{
+    color: #ca9748;
+}
+
+@media (max-width: 767.98px) { 
+    .chandelier4{
+        width: 80%;
+        height: 100%;
+    }
+ }

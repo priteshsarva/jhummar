@@ -16,7 +16,7 @@ function App() {
       <HeroSlider />
       <AboutUs />
       <ActionButton />
-      <div className="height"></div>
+      {/* <div className="height"></div> */}
       <Footer />
     </>
   );
