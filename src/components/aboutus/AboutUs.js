@@ -29,12 +29,12 @@ const AboutUs = () => {
         <div className="container-fluid row justify-content-center" style={{ paddingLeft: '0px', paddingRight: '0px', marginLeft: '0px', marginRight: '0px' }}>
 
           <div className="col-12 col-md-6 d-flex justify-content-center">
-            <Parallax translateX={[-30, 0]} opacity={[0, 1]} startScroll={700} endScroll={800} className="col-12 col-md-6 d-flex justify-content-center">
+            <Parallax translateX={[-10, 0]} opacity={[0, 1]} startScroll={700} endScroll={1000} className="col-12 col-md-6 d-flex justify-content-center">
               <img src={chandelier4} alt="" className='chandelier4' />
             </Parallax>
           </div>
           <div className="col-12 col-md-6 d-flex align-items-center">
-            <Parallax className="aboutUs-content mx-5" opacity={[0, 1]} startScroll={700} endScroll={800} >
+            <Parallax className="aboutUs-content mx-5" opacity={[0, 1]} scale={[0.5, 1]} startScroll={700} endScroll={1000} >
               <h3>Titile</h3>
               <h3>long title</h3>
               <p className='mt-3'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim ab velit, provident veniam officia amet aspernatur voluptas aliquid. Impedit temporibus rem labore explicabo consequatur! Mollitia culpa quis veniam? Minus, optio?</p>

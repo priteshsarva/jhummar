@@ -41,7 +41,9 @@ const HeroSlider = () => {
                     dynamicBullets: true,
                 }}
                 navigation={false}
-                modules={[Autoplay, Pagination, Navigation]}
+                modules={[Autoplay, 
+                    // Pagination, 
+                    Navigation]}
                 className="mySwiper"
             >
 
